@@ -7,8 +7,6 @@ use App\Http\Requests\CustomerUpdateRequest;
 use App\Models\Customer;
 use Carbon\Carbon;
 use App\Models\LoyaltyCard;
-use App\Models\Invoice;
-use App\Models\InvoiceDetail;
 use Illuminate\Support\Facades\DB;
 use Illuminate\Http\Request;
 

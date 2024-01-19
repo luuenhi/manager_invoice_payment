@@ -4,12 +4,10 @@ namespace App\Http\Controllers;
 
 use App\Http\Requests\InvoiceStoreRequest;
 use Illuminate\Support\Facades\Auth;
-use App\Models\Cashier;
 use App\Models\Customer;
 use App\Models\Product;
 use App\Models\Invoice;
 use App\Models\InvoiceDetail;
-use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use Symfony\Component\HttpFoundation\Response;
 use Illuminate\Support\Facades\DB;
@@ -53,7 +51,7 @@ class InvoiceController extends Controller
                     $point = $point - (int)$pointUsed;
                 } else {
                     return response()->json([
-                        'message' => 'So diem su dung lon hon so diem khach hang dang co'
+                        'message' => 'Số điểm bạn có không đủ để thực hiện!'
                     ], Response::HTTP_BAD_REQUEST);
                 }
                 $loyaltyCard->update([

@@ -1,6 +1,6 @@
 @extends('layouts.admin')
 
-@section('title', 'Quản lý Thông tin hàng hóa')
+@section('title', 'Quản lý sản phẩm')
 
 @section('breadcrumb')
     @include('layouts.breadcrumb', [
@@ -10,7 +10,7 @@
                 'url' => '#'
             ],
             [
-                'text' => 'Quản lý Thông tin hàng hóa',
+                'text' => 'Quản lý sản phẩm',
             ],
         ]
     ])

@@ -7,7 +7,6 @@ use App\Http\Requests\CashierUpdateRequest;
 use App\Models\Cashier;
 use Carbon\Carbon; 
 use Illuminate\Support\Facades\Hash;
-use Illuminate\Http\Request;
 
 class CashierController extends Controller
 {

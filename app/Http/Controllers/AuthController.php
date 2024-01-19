@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 
 use App\Http\Controllers\Controller;
-use App\Models\Cashier;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 
@@ -51,7 +50,7 @@ class AuthController extends Controller
         }
 
         return redirect()->back()->withInput($request->only('email','remember'))
-            ->withErrors(['email' => 'Thông tin tài khoản không tìm thấy trong hệ thống!']);
+            ->withErrors(['email' => 'Tài khoản không tồn tại!']);
     }
 
     public function logout(Request $request)

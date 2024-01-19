@@ -10,7 +10,7 @@
                 'url' => '#'
             ],
             [
-            'text' => 'Quản lý Thông tin khách hàng',
+            'text' => 'Quản lý khách hàng',
             'url' => route('customers.index')
             ],
             [

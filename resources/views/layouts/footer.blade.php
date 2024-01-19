@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container-fluid">
         <div>
-            <a href="#">QUẢN LÝ HÓA ĐƠN THỊ NHI</a>
+            <a href="#">QUẢN LÝ HÓA ĐƠN  LUU YEN NHI</a>
             <span>© 2023 CLT</span>
         </div>
         <div class="copyright ml-auto">
